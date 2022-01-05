@@ -1,12 +1,12 @@
 {
   "name": "@adreansyah/inhouse",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.5",
   "devDependencies": {
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "start": "npm --prefix packages/edts-tracker install",
+    "postinstall" : "npm --prefix packages/edts-tracker install",
     "bootstrap": "lerna bootstrap",
     "clean": "lerna run --parallel clean",
     "release": "lerna publish"
