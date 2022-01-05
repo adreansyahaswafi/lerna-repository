@@ -47,8 +47,11 @@ export const getCookie = (params: { keyname: string }) => {
     return "";
 }
 const initializeTrackerWeb = () => {
-    const track = (event_name = 'click_link_web', core_data, page_name, url) => {
-        const headers: any = { 'Content-Type': 'application/json' }
+    const track = (event_name = 'click_link_web', core_data, page_name, url, key) => {
+        const headers: any = {
+            Authorization: key,
+            'Content-Type': 'application/json'
+        }
         const isGetcookie: string = getCookie({ keyname: "session_id" });
         const doc: DOCUMENTPROPS = document;
         const win: WINDOWPROPS = window;
@@ -105,5 +108,6 @@ export const trackcheck = (params: PARAMETERUSAGE) => tracker.track(
     params.types,
     { link_label: params.link_label },
     { page_name: params.pageName },
-    params.url
+    params.url,
+    params.key
 )

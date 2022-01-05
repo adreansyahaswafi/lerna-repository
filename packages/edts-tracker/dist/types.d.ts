@@ -29,4 +29,5 @@ export interface PARAMETERUSAGE {
     link_label: string;
     pageName: string;
     url: string;
+    key: string;
 }

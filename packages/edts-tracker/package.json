@@ -15,7 +15,7 @@
   "main": "dist/index.js",
   "types": "src/index.ts",
   "files": [
-    "/dist"
+    "/dist/index.d.ts"
   ],
   "gitHead": "5c5bb33beb06dfec4caa01f621ec404f9c702c00"
 }

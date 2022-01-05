@@ -48,8 +48,11 @@ const getCookie = (params) => {
 };
 exports.getCookie = getCookie;
 const initializeTrackerWeb = () => {
-    const track = (event_name = 'click_link_web', core_data, page_name, url) => {
-        const headers = { 'Content-Type': 'application/json' };
+    const track = (event_name = 'click_link_web', core_data, page_name, url, key) => {
+        const headers = {
+            Authorization: key,
+            'Content-Type': 'application/json'
+        };
         const isGetcookie = (0, exports.getCookie)({ keyname: "session_id" });
         const doc = document;
         const win = window;
@@ -88,5 +91,5 @@ const initializeTrackerWeb = () => {
     return { track };
 };
 const tracker = initializeTrackerWeb();
-const trackcheck = (params) => tracker.track(params.types, { link_label: params.link_label }, { page_name: params.pageName }, params.url);
+const trackcheck = (params) => tracker.track(params.types, { link_label: params.link_label }, { page_name: params.pageName }, params.url, params.key);
 exports.trackcheck = trackcheck;
