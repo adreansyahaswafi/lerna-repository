@@ -1,7 +1,7 @@
 {
   "name": "@adreansyah/inhouse",
   "private": false,
-  "version": "1.0.7",
+  "version": "1.0.8",
   "devDependencies": {
     "lerna": "^4.0.0"
   },
