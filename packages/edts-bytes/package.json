@@ -5,5 +5,6 @@
   "keywords": [],
   "author": "adreansyah aswafi",
   "license": "ISC",
-  "main": "index.js"
+  "main": "index.js",
+  "gitHead": "097247991f91b311ec3a03b870be83d542e006a6"
 }
