@@ -1,0 +1,21 @@
+{
+  "name": "edts-bytes",
+  "version": "1.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "adreansyah aswafi",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "ua-parser-js": "^1.0.2"
+  },
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "files": [
+    "/dist"
+  ],
+  "gitHead": "b44a67b4e9c0e2011b87088cc65c2d302b5fd8d6"
+}
