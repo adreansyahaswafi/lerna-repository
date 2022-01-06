@@ -1,10 +1,10 @@
 {
   "name": "@adreansyah/edts-bytes",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "",
   "keywords": [],
   "author": "adreansyah aswafi",
   "license": "ISC",
   "main": "index.js",
-  "gitHead": "d4406900d6ff0a7dd79d152ce2e1ecbe79994a67"
+  "gitHead": "5b1d521abf6a651977d21267647f6d10b62572d0"
 }
