@@ -1,10 +1,10 @@
 {
   "name": "@adreansyah/edts-tracker",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "",
   "keywords": [],
   "author": "adreansyah aswafi",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^4.5.4"
   },
@@ -17,5 +17,5 @@
   "files": [
     "/dist"
   ],
-  "gitHead": "1fbb30b7dd5fa9c1cb29f35e3e5ed10633fde58a"
+  "gitHead": "88fea5cfcad5026a719630149daea27019aa11d8"
 }
