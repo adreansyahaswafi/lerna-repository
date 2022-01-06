@@ -1,0 +1,8 @@
+37 warn complete Waiting for 1 child process to exit. CTRL-C to exit immediately.
+38 error Error: Command failed with exit code 128: git tag edts-bytes@1.0.3 -m edts-bytes@1.0.3
+38 error fatal: tag 'edts-bytes@1.0.3' already exists
+38 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
+38 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:118:26)
+38 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+38 error     at async Promise.all (index 0)
+38 error     at async Promise.all (index 0)
