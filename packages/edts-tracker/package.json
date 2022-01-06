@@ -1,6 +1,6 @@
 {
   "name": "@adreansyah/edts-tracker",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "keywords": [],
   "author": "adreansyah aswafi",
@@ -17,5 +17,5 @@
   "files": [
     "/dist"
   ],
-  "gitHead": "b8bd6b144f0096c8a24d9adc3eda229407caa343"
+  "gitHead": "1d302667d8f1d583361cb980074d07f9bb0ddc69"
 }
