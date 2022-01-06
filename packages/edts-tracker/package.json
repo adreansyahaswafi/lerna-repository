@@ -1,6 +1,6 @@
 {
   "name": "edts-tracker",
-  "version": "1.0.5-alpha.0",
+  "version": "1.0.5",
   "description": "",
   "keywords": [],
   "author": "adreansyah aswafi",
@@ -13,7 +13,7 @@
     "ua-parser-js": "^1.0.2"
   },
   "main": "dist/index.js",
-  "types": "src/index.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "/dist"
   ],
